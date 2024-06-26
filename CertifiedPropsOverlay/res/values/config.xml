@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>sailfish</item> <!-- PRODUCT -->
+        <item>sailfish</item> <!-- DEVICE -->
+        <item>Google</item> <!-- MANUFACTURER -->
+        <item>google</item> <!-- BRAND -->
+        <item>Pixel</item> <!-- MODEL -->
+        <item>google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys</item> <!-- FINGERPRINT -->
+        <item>2017-12-05</item> <!-- SECURITY_PATCH -->
+        <item>MCC24.246-37</item> <!-- ID -->
+    </string-array>
+</resources>
