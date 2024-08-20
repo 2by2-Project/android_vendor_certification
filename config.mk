@@ -9,7 +9,3 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     CertifiedPropsOverlay
-
-PRODUCT_COPY_FILES += \
-    vendor/certification/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml \
-    vendor/certification/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
