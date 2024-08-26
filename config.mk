@@ -9,3 +9,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     CertifiedPropsOverlay
+
+PRODUCT_PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.pihooks.first_api_level=32
