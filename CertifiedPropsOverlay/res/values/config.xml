@@ -14,6 +14,6 @@
         <item>MODEL:Pixel 8a</item>
         <item>PRODUCT:akita_beta</item>
         <item>VERSION.SECURITY_PATCH:2024-08-05</item>
-        <item>VERSION.DEVICE_INITIAL_SDK_INT:21</item>
+        <!--<item>VERSION.DEVICE_INITIAL_SDK_INT:21</item>-->
     </string-array>
 </resources>
